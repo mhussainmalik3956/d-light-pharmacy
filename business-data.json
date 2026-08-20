@@ -1,0 +1,74 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Pharmacy",
+  "name": "Delight Pharmacy",
+  "alternateName": "D.Light Pharmacy",
+  "url": "https://www.delightpharmacy.pk",
+  "logo": "images/logo.png",
+  "foundingDate": "1993",
+  "description": "Delight Pharmacy has been serving Islamabad since 1993 with genuine medicine, prescription dispensing, and a licensed pharmacist on hand at every visit.",
+  "telephone": "+92-51-2347364",
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "opens": "08:00",
+      "closes": "23:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Sunday"],
+      "opens": "09:00",
+      "closes": "22:00"
+    }
+  ],
+  "branches": [
+    {
+      "id": "blue-area",
+      "name": "Delight Pharmacy — Blue Area (Main Branch)",
+      "tag": "Main Branch",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Khyber Plaza, AKM Fazl-ul-Haq Road, Block I, G-7/2",
+        "addressLocality": "Blue Area, Islamabad",
+        "addressCountry": "PK"
+      },
+      "telephone": "+92-51-2347364",
+      "photo": "images/branch-bluearea.webp",
+      "mapsUrl": "https://maps.google.com/maps?vet=10CAAQoqAOahcKEwigns_D_q6WAxUAAAAAHQAAAAAQBQ..i&pvq=CgwvZy8xMXhoeDU4ZzQiFgoQZCBsaWdodCBwaGFybWFjeRACGAM&lqi=ChBkIGxpZ2h0IHBoYXJtYWN5SMTDiv7xgYCACFoeEAAQARACGAAYARgCIhBkIGxpZ2h0IHBoYXJtYWN5kgEIcGhhcm1hY3k&fvr=1&cs=0&um=1&ie=UTF-8&fb=1&gl=pk&sa=X&ftid=0x38dfbfbba8ca80e1:0x73268a4d58e72ecc"
+    },
+    {
+      "id": "elysium-tower",
+      "name": "Delight Pharmacy — Elysium Tower (Second Branch)",
+      "tag": "Second Branch",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Ground Floor, Elysium Tower, Opposite PIMS Hospital",
+        "addressLocality": "Islamabad",
+        "addressCountry": "PK"
+      },
+      "telephone": "+92-51-2347364",
+      "photo": "images/branch-elysium.jpg",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Elysium+Tower+Opposite+PIMS+Hospital+Islamabad"
+    }
+  ],
+  "categories": [
+    { "name": "Prescription Medicines", "description": "Full range of prescribed medication, dispensed and checked by our pharmacist." },
+    { "name": "OTC & Wellness", "description": "Pain relief, cold & flu, digestive care, and everyday over-the-counter needs." },
+    { "name": "Vitamins & Supplements", "description": "Multivitamins, minerals, and supplements for every age group." },
+    { "name": "Baby & Mother Care", "description": "Formula, hygiene essentials, and prenatal supplements." },
+    { "name": "Skin & Personal Care", "description": "Dermatologist-recommended skincare and daily hygiene products." },
+    { "name": "Diagnostic Essentials", "description": "Nebulizers, BP & sugar monitors, thermometers, first-aid supplies." }
+  ],
+  "services": [
+    { "name": "Home Delivery", "description": "Call either branch and we'll get your order delivered across Islamabad." },
+    { "name": "Refill Reminders", "description": "Tell us your schedule and we'll remind you before your medicine runs out." },
+    { "name": "Health Consultation Corner", "description": "Free BP and sugar checks at the counter — no appointment needed." },
+    { "name": "Clinic & Bulk Supply", "description": "Wholesale rates for local clinics, schools, and small hospitals." }
+  ],
+  "testimonials": [
+    { "author": "Ayesha K.", "location": "Blue Area, Islamabad", "rating": 5, "quote": "They always have what I need in stock, and the pharmacist actually explains how to take everything. Never rushed." },
+    { "author": "Bilal R.", "location": "Local Resident", "rating": 5, "quote": "Called them at 10 PM for my father's medicine and they delivered it within the hour. Genuinely reliable." },
+    { "author": "Sana M.", "location": "Regular Customer", "rating": 5, "quote": "Our go-to for anything from baby formula to BP checks. It genuinely feels like a family pharmacy." }
+  ]
+}
